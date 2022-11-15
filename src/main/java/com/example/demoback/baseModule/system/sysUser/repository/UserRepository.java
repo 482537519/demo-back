@@ -1,17 +1,13 @@
 package com.example.demoback.baseModule.system.sysUser.repository;
 
-import com.example.demoback.baseModule.system.sysDept.model.SysDept;
-import com.example.demoback.baseModule.system.sysRole.model.SysRole;
 import com.example.demoback.baseModule.system.sysUser.model.SysUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 
 public interface UserRepository extends JpaRepository<SysUser, String>, JpaSpecificationExecutor {

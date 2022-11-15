@@ -3,9 +3,10 @@ package com.example.demoback.common.mybatisplus.processor;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.demoback.common.mybatisplus.annotaion.Timestamp;
 import com.example.demoback.common.mybatisplus.enums.CompareEnum;
+import com.example.demoback.common.mybatisplus.query.AbstractQuery;
 import com.example.demoback.common.mybatisplus.util.CriteriaUtils;
 import org.springframework.util.StringUtils;
-import com.example.demoback.common.mybatisplus.query.AbstractQuery;
+
 import java.lang.reflect.Field;
 
 /**
