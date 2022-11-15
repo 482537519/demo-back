@@ -1,0 +1,50 @@
+#启动接口
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
+#数据源配置
+spring:
+  application:
+    name: demo-back
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  # Redis 主机
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 2
+    timeout: 1000s  # 数据库连接超时时间，2.0 中该参数的类型为Duration，这里在配置的时候需要指明单位
+    # 连接池配置，2.0中直接使用jedis或者lettuce配置连接池
+    jedis:
+      pool:
+        # 最大空闲连接数
+        max-idle: 500
+        # 最小空闲连接数
+        min-idle: 50
+        # 等待可用连接的最大时间，负数为不限制
+        max-wait: -1
+        # 最大活跃连接数，负数为不限制
+        max-active: -1
+
+#登录图形验证码有效时间/分钟
+loginCode:
+  expiration: 2
+
+logback:
+  file: /opt/app/log/ui
+
+#xss攻击拦截
+xss:
+  enabled: false
+  excludes:
+  urlPatterns: /*
+
+#Referer拦截器-白名单
+refererDomain:
+  host: 127.0.0.1,10.111.15.114
