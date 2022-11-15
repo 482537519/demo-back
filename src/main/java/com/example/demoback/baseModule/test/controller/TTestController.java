@@ -1,13 +1,11 @@
 package com.example.demoback.baseModule.test.controller;
 
 import com.example.demoback.api.log.aop.Log;
-import com.example.demoback.baseModule.test.dto.TestQueryCriteria;
 import com.example.demoback.baseModule.test.entity.TTest;
 import com.example.demoback.baseModule.test.query.TTestQuery;
 import com.example.demoback.baseModule.test.service.TTestService;
 import com.example.demoback.common.exception.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

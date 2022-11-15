@@ -2,7 +2,6 @@ package com.example.demoback.api.security.rest;
 
 import com.example.demoback.api.security.service.OnlineUserService;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

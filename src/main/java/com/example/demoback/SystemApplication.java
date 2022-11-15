@@ -1,7 +1,6 @@
 package com.example.demoback;
 
 import com.example.demoback.common.util.SpringContextHolder;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;

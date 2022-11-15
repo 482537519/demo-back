@@ -1,7 +1,5 @@
 package com.example.demoback.baseModule.system.sysUser.service.impl;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.example.demoback.api.redis.service.RedisService;
 import com.example.demoback.baseModule.system.sysRole.service.RoleService;
 import com.example.demoback.baseModule.system.sysUser.dto.UserDTO;

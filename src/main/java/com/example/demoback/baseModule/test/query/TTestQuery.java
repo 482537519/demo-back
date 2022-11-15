@@ -1,6 +1,5 @@
 package com.example.demoback.baseModule.test.query;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.example.demoback.baseModule.test.entity.TTest;
 import com.example.demoback.common.mybatisplus.annotaion.Like;
 import com.example.demoback.common.mybatisplus.query.AbstractQuery;

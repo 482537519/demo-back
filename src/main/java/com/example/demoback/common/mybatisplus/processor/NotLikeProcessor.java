@@ -2,8 +2,9 @@ package com.example.demoback.common.mybatisplus.processor;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.demoback.common.mybatisplus.annotaion.NotLike;
-import org.springframework.util.StringUtils;
 import com.example.demoback.common.mybatisplus.query.AbstractQuery;
+import org.springframework.util.StringUtils;
+
 import java.lang.reflect.Field;
 
 /**

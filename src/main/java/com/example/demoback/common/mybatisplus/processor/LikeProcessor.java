@@ -3,8 +3,8 @@ package com.example.demoback.common.mybatisplus.processor;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.enums.SqlLike;
 import com.example.demoback.common.mybatisplus.annotaion.Like;
-import org.springframework.util.StringUtils;
 import com.example.demoback.common.mybatisplus.query.AbstractQuery;
+import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Field;
 

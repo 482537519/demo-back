@@ -9,7 +9,6 @@ import com.example.demoback.baseModule.system.sysDept.service.DeptService;
 import com.example.demoback.common.exception.BadRequestException;
 import com.example.demoback.common.util.KeyWord;
 import com.example.demoback.common.util.QueryHelp;
-import com.example.demoback.common.util.StringUtils;
 import com.example.demoback.common.util.ValidationUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
